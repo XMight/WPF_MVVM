@@ -1,0 +1,32 @@
+﻿/************************************************************************
+XMightUICommon Project
+
+Copyright (c) 2016, Andrei Busmachiu
+All rights reserved.
+
+The software is for educational purpose only. You may use it to build your own
+applications, including commercial. An acknowledgement on my blog or link to 
+my blog would be welcome in order to keep my interest in sharing the experience
+up and running would be welcome, but not mandatory.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Parts of this software uses code found freely on the WWW, like stackoverflow, MSDN etc.
+Example:
+The Metro loading XAML taken from CodeProject article: 
+http://www.codeproject.com/Tips/546477/Creating-Metro-Windows-Loading-Animation-Using-X
+
+I merely organized the good practices I've learned during my software development
+career. If you think that I, in some way, violated some copyright, feel free to write to me and
+I'll try to fix the problem either by including a reference to the original  author or removing 
+the conflicting parts.
+************************************************************************/

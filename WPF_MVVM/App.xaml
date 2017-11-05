@@ -1,0 +1,14 @@
+﻿<Application x:Class="WPF_MVVM.WpfMvvmExampleApp"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:localconverters="clr-namespace:WPF_MVVM.Converters">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/XMightUICommon;component/XMightUICommonResourceDictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <!---You can put here other things, like converters-->
+            <localconverters:TextBoxValueAppenderConverter x:Key="TextBoxValueAppenderConverter"/>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

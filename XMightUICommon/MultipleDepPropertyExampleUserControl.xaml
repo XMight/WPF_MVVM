@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="XMightUICommon.MultipleDepPropertyExampleUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:XMightUICommon">
+    <Grid Background="BlanchedAlmond" Width="500">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.*"/>
+            <RowDefinition Height="1.*"/>
+        </Grid.RowDefinitions>
+        <local:DepPropertyExampleUserControl SomeString="Control Row 0 Column 0" HorizontalAlignment="Center">
+        </local:DepPropertyExampleUserControl>
+        <local:DepPropertyExampleUserControl Margin="5" Grid.Column="1" SomeString="Control Row 0 Column 1" HorizontalAlignment="Center">
+        </local:DepPropertyExampleUserControl>
+        <local:DepPropertyExampleUserControl Grid.Row="1" SomeString="Control Row 1 Column 0" HorizontalAlignment="Center">
+        </local:DepPropertyExampleUserControl>
+        <local:DepPropertyExampleUserControl Grid.Row="1" Grid.Column="1" SomeString="Control Row 1 Column 1" HorizontalAlignment="Center">
+        </local:DepPropertyExampleUserControl>
+    </Grid>
+</UserControl>
